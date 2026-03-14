@@ -1,6 +1,6 @@
 USE MicrofinanceDB
 
---crear la base analítica vintage
+--crear la base analÃ­tica vintage
 IF OBJECT_ID('dbo.base_vintage', 'V') IS NOT NULL
     DROP VIEW dbo.base_vintage;
 GO

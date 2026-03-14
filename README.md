@@ -30,6 +30,7 @@ El proyecto busca responder preguntas clave de gestión de cartera:
 
 ## 📂 Estructura del proyecto
 
+```
 microfinance-credit-risk-dashboard
 │
 ├── data
@@ -49,6 +50,8 @@ microfinance-credit-risk-dashboard
 │   └── vintage_matrix.png
 │
 └── README.md
+```
+
 
 
 🗄 Data Pipeline (SQL Layer)

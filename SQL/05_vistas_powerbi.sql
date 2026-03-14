@@ -34,7 +34,7 @@ FROM dbo.base_vintage_detalle
 GROUP BY producto;
 GO
 
---Analizar riesgo geogr·fico
+--Analizar riesgo geogr√°fico
 IF OBJECT_ID('dbo.pbi_mora_zona', 'V') IS NOT NULL
     DROP VIEW dbo.pbi_mora_zona;
 GO
@@ -51,7 +51,7 @@ FROM dbo.base_vintage_detalle
 GROUP BY zona, region;
 GO
 
---Analizar calidad de cartera por asesor de crÈdito.
+--Analizar calidad de cartera por asesor de cr√©dito.
 IF OBJECT_ID('dbo.pbi_mora_asesor', 'V') IS NOT NULL
     DROP VIEW dbo.pbi_mora_asesor;
 GO
@@ -101,7 +101,7 @@ GO
 
 
 --QUERY EXTRA
---detecta crÈditos que tuvieron al menos una cuota vencida.
+--detecta cr√©ditos que tuvieron al menos una cuota vencida.
 SELECT
     cohorte_desembolso,
     COUNT(DISTINCT id_credito) AS creditos_total,

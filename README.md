@@ -257,7 +257,7 @@ implementar alertas tempranas para créditos con atrasos iniciales
 
 Estas medidas pueden ayudar a reducir la mora y mejorar la calidad de la cartera.
 
-🛠 Herramientas utilizadas
+🛠 Herramientas utilizadas 
 
 SQL Server
 

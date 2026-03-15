@@ -40,8 +40,9 @@ microfinance-credit-risk-dashboard
 ├── SQL
 │   ├── 01_exploracion_datos.sql
 │   ├── 02_construccion_base_vintage.sql
-│   ├── 03_calculo_indicadores_mora.sql
-│   └── 04_vistas_powerbi.sql
+│   ├── 03_construccion_bmatriz_vintage.sql
+│   ├── 04_calculo_indicadores_mora.sql
+│   └── 05_vistas_powerbi.sql
 │
 ├── PowerBI
 │   └── credit_risk_dashboard.pbix
